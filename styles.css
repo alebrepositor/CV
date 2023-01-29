@@ -1,0 +1,259 @@
+header nav .d-content{
+    display: contents;
+}
+
+header .fixed-top {
+    background-color: white;
+   
+}
+
+
+
+#sidebarinfo{
+    background-color: white;
+    
+}
+    
+/* Imagen */
+
+#sidebarinfo div div  .fiximgsidebar{
+    margin-top: 30px;
+    height: 220px;
+}
+
+@media (max-width: 767px) {
+    #sidebarinfo div div  .fiximgsidebar{ 
+        margin-top: 57px;
+        height: 300px;
+    }
+}
+
+.listaux{
+    display: inline-block; 
+	text-align: left; 
+}
+
+
+#maincontent .none-cardborder{
+    border: 0px;    
+}
+
+.mayus{
+    text-transform: uppercase;
+}
+.margin-top-navbar{
+    margin-top: 81px;
+}
+.mg-10{
+    margin-top: 10px;
+}
+
+.text-size-h1{
+    font-size: 1.9em;
+}
+
+@media (max-width: 767px) {
+    .text-size-h1{
+        font-size: 1.5em;
+    }
+}
+
+.habilidad-item h3{
+    
+        margin-bottom: 5px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.8em;
+        
+      
+}
+
+.titulo-seccion h4 {
+    margin-bottom: 5px;
+    color: #bebece;
+    font-size: 18px;
+    line-height: 1.8em;
+    font-weight: 700;
+  }
+
+.titulo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.titulo h1 {
+    line-height: 1;
+    font-size: 26px;
+    line-height: 1em;
+    font-weight: 700;
+  }
+
+  .titulo p {
+    margin-bottom: 20px;
+    font-family: 'Hind', sans-serif;
+    font-size: 13px;
+    line-height: 1.8em;
+    color: #3d3d50;
+    font-weight: 300;
+  }
+
+.profesion {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.4;
+  
+  }
+
+  .contacto i{
+    margin-bottom: 2px;
+    font-size: 15px;
+    color: #333333;
+    width: 34px;
+    height: 34px;
+    line-height: 33px;
+    text-align: center;
+    border-radius: 2px;
+    border: 2px solid #FFC107;
+  }
+
+  .contacto a {
+    text-decoration: none;
+  }
+
+  .contacto .email {
+    text-decoration: #FFC107;
+  }
+
+
+  /* boton */
+
+  .btn  {
+    padding: 12px 16px;
+    cursor: pointer;
+    border-width: 1px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    -webkit-box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+    position: relative;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    margin-top: 5px;
+  }
+
+  .btn.btn-tertiary {
+    color: #fff;
+    background: #edb307;
+    border-color: #edb307;
+  }
+
+  .btn-block {
+    display: block;
+    width: 100%;
+  }
+
+  .experiencia-item{
+    margin-bottom: 40px;
+  }
+
+  .experiencia-item small{
+    color: #888888;
+    font-size: 85%;
+  }
+
+  .experiencia-item h3{
+    margin: 0 0 10px;
+    line-height: 1;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #2b2b3d;
+  }
+
+  .experiencia-item h4{
+    margin: 0;
+    line-height: 1;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .experiencia-item p{
+    font-family: 'Hind', sans-serif;
+    font-size: 15px;
+    line-height: 1.8em;
+    color: #3d3d50;
+    font-weight: 300;
+  }
+
+
+  .ftco-navbar-light ul > li > a.active {
+    color: #fff;
+  }
+
+  .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+    font-size: 11px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 500;
+    color: #3d3d50;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    opacity: 1 !important;
+  }
+  .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover, .active{
+    background-color: #edb307;
+    color: white;
+  }
+
+  .underlineYellow{
+    border-bottom: 1px solid #edb307;
+    padding-bottom: 5px;
+    width: 40%;
+  }
+
+
+  #habilidades,#experiencias,#contactame {
+    scroll-margin-top: 82px;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+.formcontact {
+  margin-top: 10px;
+}
+  
+
+/* Formulario*/ 
+
+#contactForm > .form-group > .form-control {
+  height: 50px;
+  padding: 0 20px;
+  font-size: 13px;
+  line-height: 50px;
+  color: #969595;
+  border: 1px solid #cccccc;
+  border-radius: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+}
+
+#contactForm > .form-group >  #message-text {
+  height: 100px;
+}
+
+#contactForm > .form-group > label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
