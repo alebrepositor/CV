@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    let datos;
+    var datos;
     $.get({
         url: 'https://randomuser.me/api/',
         dataType: 'json',
