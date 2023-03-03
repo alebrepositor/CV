@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
         dataType: 'json',
         success: function(data) {
           console.log(data);
-          console.log(data.result.gender);
+          console.log(data.results.gender);
         }
     });
 });
