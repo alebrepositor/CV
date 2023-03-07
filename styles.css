@@ -16,6 +16,7 @@ header .fixed-top {
     
 /* Imagen */
 
+
 #sidebarinfo div div  .fiximgsidebar{
     margin-top: 30px;
     height: 220px;
@@ -26,6 +27,48 @@ header .fixed-top {
         margin-top: 57px;
         height: 300px;
     }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  #sidebarinfo div div .fiximgsidebar {
+    margin-top: 30px;
+    height: 188px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #sidebarinfo div div .fiximgsidebar {
+    margin-top: 30px;
+    height: 120px;
+}
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  #sidebarinfo div div .fiximgsidebar {
+    margin-top: 57px;
+    width: 80%;
+    margin-left: 45px;
+    height: 300px;
+}
+}
+
+@media (min-width: 451px) and (max-width: 575px) {
+  #sidebarinfo div div .fiximgsidebar {
+    margin-left: 70px;
+    margin-top: 57px;
+    height: 300px;
+    width: 70%;
+}
+}
+
+
+@media (min-width: 410px) and (max-width: 451px) {
+  #sidebarinfo div div .fiximgsidebar {
+    margin-left: 45px;
+    margin-top: 57px;
+    height: 250px;
+    width: 80%;
+}
 }
 
 .listaux{
@@ -66,6 +109,13 @@ header .fixed-top {
         line-height: 1.8em;
         
       
+}
+
+@media (max-width: 576px) {
+  .titulo-seccion{
+    padding-right: 0px !important;
+    padding-left:  0px !important;
+  }
 }
 
 .titulo-seccion h4 {
@@ -156,6 +206,8 @@ header .fixed-top {
     display: block;
     width: 100%;
   }
+ /*Fin Boton */
+
 
   .experiencia-item{
     margin-bottom: 40px;
@@ -190,6 +242,7 @@ header .fixed-top {
     font-weight: 300;
   }
 
+  /*Navegador*/
 
   .ftco-navbar-light ul > li > a.active {
     color: #fff;
@@ -213,13 +266,23 @@ header .fixed-top {
     color: white;
   }
 
+  @media (max-width: 576px) {
+    .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+      padding-left: 7px;
+      padding-right: 7px;
+    }
+  }
+
+  /* Fin Navegador*/
+
+
   .underlineYellow{
     border-bottom: 1px solid #edb307;
     padding-bottom: 5px;
     width: 40%;
   }
 
-
+/* Scroll Navegador*/
   #habilidades,#experiencias,#contactame {
     scroll-margin-top: 82px;
   }
@@ -231,7 +294,7 @@ header .fixed-top {
 .formcontact {
   margin-top: 10px;
 }
-  
+/* Fin Scroll Navegador*/  
 
 /* Formulario*/ 
 
